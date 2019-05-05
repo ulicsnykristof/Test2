@@ -10,10 +10,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/jpg" href="pictures/icon.jpg">
-    <link rel="stylesheet" type="text/css" href="style/my-style.css">
-    <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="icon" type="image/jpg" href="../pictures/icon.jpg">
+    <link rel="stylesheet" type="text/css" href="../style/my-style.css">
+    <link rel="stylesheet" type="text/css" href="../style/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -36,10 +36,10 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="common_about_page.php">About</a>
+            <a class="nav-link" href="common/common_about_page.php">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="common_help_page.php">Help</a>
+            <a class="nav-link" href="common/common_help_page.php">Help</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -50,7 +50,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Account</a>
               <a class="dropdown-item" href="#">Options</a>
-              <a class="dropdown-item" href="login_page.php">Logout</a>
+              <a class="dropdown-item" href="../login_page.php">Logout</a>
             </div>
           </li>
         </ul>
@@ -66,7 +66,7 @@
             User Management
           </div>
           <div class="card-body text-center">
-            <img class="card-img-top" src="pics/admin_modify.png" alt="card.jpg">
+            <img class="card-img-top" src="../pics/admin_modify.png" alt="card.jpg">
             <a class="btn btn-primary" href="admin_page_manage.php" style="margin-bottom: 16px; font-size: 18px; width: 100px;">Enter</a>
             <p>Adding user with this function easily no matter what happaning next or what are the consecvesnises</p>
           </div>
@@ -77,7 +77,7 @@
             User Activity
           </div>
           <div class="card-body text-center">
-            <img class="card-img-top" src="pics/admin_modify.png" alt="card.jpg">
+            <img class="card-img-top" src="../pics/admin_modify.png" alt="card.jpg">
             <a class="btn btn-primary" href="admin_page_manage.php" style="margin-bottom: 16px; font-size: 18px; width: 100px;">Enter</a>
             <p>Adding user with this function easily no matter what happaning next or what are the consecvesnises</p>
           </div>
@@ -88,7 +88,7 @@
             Reports
           </div>
           <div class="card-body text-center">
-            <img class="card-img-top" src="pics/admin_modify.png" alt="card.jpg">
+            <img class="card-img-top" src="../pics/admin_modify.png" alt="card.jpg">
             <a class="btn btn-primary" href="admin_page_manage.php" style="margin-bottom: 16px; font-size: 18px; width: 100px;">Enter</a>
             <p>Adding user with this function easily no matter what happaning next or what are the consecvesnises</p>
           </div>

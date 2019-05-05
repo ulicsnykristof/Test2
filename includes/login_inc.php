@@ -36,10 +36,10 @@
             $_SESSION['user_access'] = $row['user_access'];
             $_SESSION['user_role'] = $row['user_role'];
             if($select == 'User'){
-              header('Location: ../user_page.php');
+              header('Location: ../user/user_page.php');
               exit();
             }elseif($select == 'Admin'){
-              header('Location: ../admin_page.php');
+              header('Location: ../admin/admin_page.php');
               exit();
             }else{
               header('Location: ../login_page.php?what');

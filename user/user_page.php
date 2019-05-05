@@ -10,11 +10,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/jpg" href="pictures/icon.jpg">
-    <link rel="stylesheet" type="text/css" href="style/my-style.css">
-    <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+    <link rel="icon" type="image/jpg" href="../pictures/icon.jpg">
+    <link rel="stylesheet" type="text/css" href="../style/my-style.css">
+    <link rel="stylesheet" type="text/css" href="../style/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -31,10 +31,10 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="common_about_page.php">About</a>
+            <a class="nav-link" href="common/common_about_page.php">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="common_help_page.php">Help</a>
+            <a class="nav-link" href="common/common_help_page.php">Help</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -45,7 +45,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Account</a>
               <a class="dropdown-item" href="#">Options</a>
-              <a class="dropdown-item" href="login_page.php">Logout</a>
+              <a class="dropdown-item" href="../login_page.php">Logout</a>
             </div>
           </li>
         </ul>
@@ -59,7 +59,7 @@
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
             Products
           </div>
-          <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
+          <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
             <a class="btn btn-primary bottom" href="user_products_page.php" style="font-size: 22px;">Enter</a>
@@ -70,7 +70,7 @@
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
             Order request
           </div>
-          <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
+          <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
             <a class="btn btn-primary bottom" href="user_order_req_page.php" style="font-size: 22px;">Enter</a>
@@ -81,7 +81,7 @@
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
             Stock
           </div>
-          <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
+          <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
             <a class="btn btn-primary bottom" href="user_stock_page.php" style="font-size: 22px;">Enter</a>
@@ -92,7 +92,7 @@
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
             Partners
           </div>
-          <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
+          <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
             <a class="btn btn-primary bottom" href="user_partners_page.php" style="font-size: 22px;">Enter</a>
@@ -109,7 +109,7 @@
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
             Products
           </div>
-          <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
+          <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
             <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
@@ -120,7 +120,7 @@
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
             Products
           </div>
-          <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
+          <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
             <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
@@ -131,7 +131,7 @@
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
             Products
           </div>
-          <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
+          <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
             <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
@@ -142,7 +142,7 @@
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
             Products
           </div>
-          <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
+          <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
             <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>

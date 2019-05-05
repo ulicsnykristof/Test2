@@ -27,10 +27,10 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="common_about_page.php">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="common/common_about_page.php">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="common_help_page.php">Help</a>
+            <a class="nav-link" href="common/common_help_page.php">Help</a>
           </li>
         </ul>
       </div>
