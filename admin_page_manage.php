@@ -80,7 +80,7 @@
                 <div class="form-group">
                   <label for="">User Access</label>
                   <select style="color: #000000;" class="form-control" name="reg_access">
-                    <option value="" select="selected">Choose option</option>
+                    <option value="" disabled selected>Choose option</option>
                     <option value="Warehose worker">Warehose worker</option>
                     <option value="Sales department">Sales department</option>
                     <option value="Administration">Administration</option>
@@ -92,7 +92,7 @@
                 <div  class="form-group">
                   <label for="">User Role</label>
                   <select style="color: #000000;" class="form-control" name="reg_role">
-                    <option value="" select="selected">Choose option</option>
+                    <option value="" disabled selected>Choose option</option>
                     <option value="User">User</option>
                     <option value="Admin">Admin</option>
                   </select>

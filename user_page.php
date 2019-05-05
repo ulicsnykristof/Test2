@@ -62,7 +62,7 @@
           <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
-            <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
+            <a class="btn btn-primary bottom" href="user_products_page.php" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
@@ -73,7 +73,7 @@
           <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
-            <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
+            <a class="btn btn-primary bottom" href="user_order_req_page.php" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
@@ -84,18 +84,18 @@
           <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
-            <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
+            <a class="btn btn-primary bottom" href="user_stock_page.php" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
         <div class="card bg-secondary">
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
-            Other
+            Partners
           </div>
           <img class="card-img" src="pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Product list, stuff, etc.</p>
-            <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
+            <a class="btn btn-primary bottom" href="user_partners_page.php" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
