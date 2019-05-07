@@ -58,7 +58,7 @@
 
         <!-- Registration form-->
         <div class="col-6">
-          <form class="" action="includes/admin/reg_inc.php" method="post">
+          <form class="" action="../includes/admin/reg_inc.php" method="post">
             <fieldset>
               <legend>Register new User</legend>
 

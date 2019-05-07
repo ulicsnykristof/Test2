@@ -2,7 +2,7 @@
 
   if(isset($_POST['reg_submit'])){
 
-    require 'dbh_inc.php';
+    require '../dbh_inc.php';
 
     $uid = mysqli_real_escape_string($conn, $_POST['reg_uid']);
     $name = mysqli_real_escape_string($conn, $_POST['reg_name']);
@@ -12,7 +12,7 @@
     $date = date('Y-m-d');
 
     if(empty($uid) || empty($name) || empty($email) || empty($access) ||empty($role)){
-      header('Location: ../admin_page_manage.php?error=empty_filed');
+      header('Location: ../../admin/admin_page_manage.php?error=empty_filed');
       exit();
 
     }else{
@@ -20,7 +20,7 @@
       $result = mysqli_query($conn, $sql);
 
       if(mysqli_num_rows($result)>0){
-        header('Location: ../admin_page_manage.php?error=already_in_database');
+        header('Location: ../../admin/admin_page_manage.php?error=already_in_database');
         exit();
 
       }else{
@@ -36,7 +36,7 @@
         #mysqli_stmt_bind_param($stmt, "sssssss", $uid, $name, $email, $hashedpwd, $access, $role, $date);
         #mysqli_stmt_execute($stmt);
 
-        header('Location: ../admin_page_manage.php?success');
+        header('Location: ../../admin/admin_page_manage.php?success');
 
       }
     }
