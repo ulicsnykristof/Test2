@@ -18,6 +18,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      function show_table(){
+        document.getElementById("prod_table").style.display = "table";
+        document.getElementById("prod_form").style.display = "none";
+      }
+      function show_form(){
+        document.getElementById("prod_table").style.display = "none";
+        document.getElementById("prod_form").style.display = "block";
+      }
+    </script>
     <title>DMOffice</title>
   </head>
   <body>
@@ -53,9 +63,183 @@
     </nav>
 
     <!-- User Content -->
-    <div class="">
+    <div class="container" style="margin-top:30px; margin-bottom:30px;">
+      <div class="row">
+        <div class="col-2">
+          <legend>Options</legend>
+          <div class="list-group" style="margin-bottom:10px;">
+            <a onClick="show_table()" class="list-group-item list-group-item-action" href="#" >Product list</a>
+          </div>
+          <div class="list-group" style="margin-bottom:10px;">
+            <a onClick="show_form()" class="list-group-item list-group-item-action" href="#" >Add to list</a>
+          </div>
+          <div class="list-group" style="margin-bottom:10px;">
+            <a class="list-group-item list-group-item-action" href="#" >Modify list element</a>
+          </div>
+        </div>
+        <div class="col-10">
+          <table id="prod_table" class="table">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Partner</th>
+                <th>Price</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Soproni dobozos 0.5</td>
+                <td>Heineken Hungária Kft.</td>
+                <td>270</td>
+                <td>Beer</td>
+              </tr>
+            </tbody>
+          </table>
+          <form id="prod_form" class="" action="../includes/admin/reg_inc.php" method="post">
+            <fieldset>
+              <legend>Register new User</legend>
 
+                <div class="form-group">
+                  <label for="">User ID (Nickname)</label>
+                  <input style="color: #000000;"  class="form-control" type="text" name="reg_uid" value="" placeholder="Enter user id">
+                </div>
+
+                <div class="form-group">
+                  <label for="">User Name</label>
+                  <input style="color: #000000;" class="form-control" type="text" name="reg_name" value="" placeholder="Enter user name">
+                </div>
+
+                <div class="form-group">
+                  <label for="">User E-mail</label>
+                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter e-mail address">
+                </div>
+
+                <div class="form-group">
+                  <label for="">User Access</label>
+                  <select style="color: #000000;" class="form-control" name="reg_access">
+                    <option value="" disabled selected>Choose option</option>
+                    <option value="Warehose worker">Warehose worker</option>
+                    <option value="Sales department">Sales department</option>
+                    <option value="Administration">Administration</option>
+                    <option value="Delivery">Delivery</option>
+                    <option value="Customer Service">Customer Service</option>
+                  </select>
+                </div>
+
+            </fieldset>
+          </form>
+        </div>
+      </div>
     </div>
+
 
 
     <!-- User Footer -->
