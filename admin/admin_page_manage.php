@@ -45,7 +45,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Account</a>
               <a class="dropdown-item" href="#">Options</a>
-              <a class="dropdown-item" href="login_page.php">Logout</a>
+              <a class="dropdown-item" href="../login_page.php">Logout</a>
             </div>
           </li>
         </ul>
