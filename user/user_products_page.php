@@ -55,7 +55,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Account</a>
               <a class="dropdown-item" href="#">Options</a>
-              <a class="dropdown-item" href="login_page.php">Logout</a>
+              <a class="dropdown-item" href="../login_page.php">Logout</a>
             </div>
           </li>
         </ul>
@@ -203,7 +203,7 @@
               </tr>
             </tbody>
           </table>
-          <form id="prod_form" class="" action="../includes/admin/reg_inc.php" method="post">
+          <form id="prod_form" style="display:none" class="" action="../includes/admin/reg_inc.php" method="post">
             <fieldset>
               <legend>Register new User</legend>
 
