@@ -19,7 +19,7 @@
 
     <!-- Login Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="login_page.php">
         DMOFFICE
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="common_about_page.php">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="common_terms_and_conditions_page.php">Terms and Conditions<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="common_help_page.php">Help</a>
@@ -38,40 +38,22 @@
     </nav>
 
     <!-- Content -->
+
     <div class="container" style="margin-top:30px; margin-bottom:30px;">
       <div class="row">
         <div class="col-3">
-          <legend>Admin</legend>
+          <legend>Login</legend>
           <div class="list-group">
-            <a class="list-group-item list-group-item-action" href="#">Manage Users</a>
+            <a class="list-group-item list-group-item-action" href="#">How to login</a>
           </div>
+          <br/>
           <div class="list-group">
-            <a class="list-group-item list-group-item-action" href="#">Monitoring</a>
+            <a class="list-group-item list-group-item-action" href="#">Forget my password</a>
           </div>
+          <br/>
           <div class="list-group">
-            <a class="list-group-item list-group-item-action" href="#">Reports</a>
+            <a class="list-group-item list-group-item-action" href="#">Error messages</a>
           </div>
-          <legend style="margin-top: 20px;">User</legend>
-          <div class="list-group">
-            <a class="list-group-item list-group-item-action" href="#">Products</a>
-          </div>
-          <div class="list-group">
-            <a class="list-group-item list-group-item-action" href="#">Oreder request</a>
-          </div>
-          <div class="list-group">
-            <a class="list-group-item list-group-item-action" href="#">Stock</a>
-          </div>
-          <div class="list-group">
-            <a class="list-group-item list-group-item-action" href="#">Something</a>
-          </div>
-          <div class="list-group">
-            <a class="list-group-item list-group-item-action" href="#">Other stuffs</a>
-          </div>
-        </div>
-        <div class="col-7">
-          <legend>Description</legend>
-          <?php  ?>
-        </div>
       </div>
     </div>
 
