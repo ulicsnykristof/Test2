@@ -56,26 +56,31 @@
     <div class="container" style="margin-top: 30px;">
       <div class="row">
 
-          <table id="prod_table" class="table">
-            <thead>
-              <tr>
-                <th>Num</th>
-                <th>User</th>
-                <th>Activity</th>
-                <th>Type</th>
-                <th>Date</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Admin Csaba</td>
-                <td>added: Kiss Csaba; id=12;</td>
-                <td>new user</td>
-                <td>2019.05.21.</td>
-              </tr>
-            </tbody>
-          </table>
+        <table id="prod_table" class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>User Name</th>
+              <th>Type</th>
+              <th>Discription</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php
+              require '../includes/dbh_inc.php';
+              $sql = "SELECT * FROM activity;";
+              $result = mysqli_query($conn, $sql);
+              foreach ($result as $k => $v) {
+                echo "<tr class='table-light'>";
+                foreach ($v as $key => $value) {
+                    echo "<td>" . $value . "</td>";
+                }
+                echo "</tr>";
+              }
+             ?>
+          </tbody>
+        </table>
 
       </div>
     </div>
