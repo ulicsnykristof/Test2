@@ -41,7 +41,7 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Terms and Conditions</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Help</a>
