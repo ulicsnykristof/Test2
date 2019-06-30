@@ -17,16 +17,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
     <title>DMOffice</title>
   </head>
 
   <body>
 
-    <!--
-    <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-    <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-    -->
     <!-- Admin Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
       <a class="navbar-brand" href="#">DMOFFICE - Admin</a>
@@ -36,7 +31,7 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Terms and Conditions</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Help</a>
@@ -58,48 +53,34 @@
     </nav>
 
     <!-- Main -->
-    <div class="container" style="margin-top: 80px; margin-bottom: 180px;">
-      <div class="card-deck my-deck" >
+    <div class="container" style="margin-top: 30px;">
+      <div class="row">
 
-        <div class="card bg-secondary">
-          <div class="card-header" style="font-size: 18px;">
-            User Management
-          </div>
-          <div class="card-body text-center">
-            <img class="card-img-top" src="../pics/admin_modify.png" alt="card.jpg">
-            <a class="btn btn-primary" href="admin_page_manage.php" style="margin-bottom: 16px; font-size: 18px; width: 100px;">Enter</a>
-            <p>List users, add</p>
-          </div>
-        </div>
-
-        <div class="card bg-secondary">
-          <div class="card-header" style="font-size: 18px;">
-            User Activity
-          </div>
-          <div class="card-body text-center">
-            <img class="card-img-top" src="../pics/admin_modify.png" alt="card.jpg">
-            <a class="btn btn-primary" href="admin_page_activity.php" style="margin-bottom: 16px; font-size: 18px; width: 100px;">Enter</a>
-            <p>Monitoring user activities</p>
-          </div>
-        </div>
-
-        <div class="card bg-secondary">
-          <div class="card-header" style="font-size: 18px;">
-            Reports
-          </div>
-          <div class="card-body text-center">
-            <img class="card-img-top" src="../pics/admin_modify.png" alt="card.jpg">
-            <a class="btn btn-primary" href="#" style="margin-bottom: 16px; font-size: 18px; width: 100px;">Enter</a>
-            <p>Making reports</p>
-          </div>
-        </div>
+          <table id="prod_table" class="table">
+            <thead>
+              <tr>
+                <th>Num</th>
+                <th>User</th>
+                <th>Activity</th>
+                <th>Type</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Admin Csaba</td>
+                <td>added: Kiss Csaba; id=12;</td>
+                <td>new user</td>
+                <td>2019.05.21.</td>
+              </tr>
+            </tbody>
+          </table>
 
       </div>
     </div>
 
-
-    <!-- Footer -->
-    <footer class="page-footer">
+    <footer class="page-footer" style="margin-top: 100px;">
       <div class="container center">
         <div class="text-center">
           <a href="https://www.facebook.com/GojiraMusic"><i class="fa fa-facebook-official"></i></a>
