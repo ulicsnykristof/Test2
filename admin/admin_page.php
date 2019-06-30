@@ -36,10 +36,10 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="common/common_about_page.php">About</a>
+            <a class="nav-link" href="#">Terms and Conditions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="common/common_help_page.php">Help</a>
+            <a class="nav-link" href="#">Help</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -68,7 +68,7 @@
           <div class="card-body text-center">
             <img class="card-img-top" src="../pics/admin_modify.png" alt="card.jpg">
             <a class="btn btn-primary" href="admin_page_manage.php" style="margin-bottom: 16px; font-size: 18px; width: 100px;">Enter</a>
-            <p>Adding user with this function easily no matter what happaning next or what are the consecvesnises</p>
+            <p>List users, add</p>
           </div>
         </div>
 
@@ -79,7 +79,7 @@
           <div class="card-body text-center">
             <img class="card-img-top" src="../pics/admin_modify.png" alt="card.jpg">
             <a class="btn btn-primary" href="admin_page_manage.php" style="margin-bottom: 16px; font-size: 18px; width: 100px;">Enter</a>
-            <p>Adding user with this function easily no matter what happaning next or what are the consecvesnises</p>
+            <p>Monitoring user activities</p>
           </div>
         </div>
 
@@ -90,7 +90,7 @@
           <div class="card-body text-center">
             <img class="card-img-top" src="../pics/admin_modify.png" alt="card.jpg">
             <a class="btn btn-primary" href="admin_page_manage.php" style="margin-bottom: 16px; font-size: 18px; width: 100px;">Enter</a>
-            <p>Adding user with this function easily no matter what happaning next or what are the consecvesnises</p>
+            <p>Making reports</p>
           </div>
         </div>
 
