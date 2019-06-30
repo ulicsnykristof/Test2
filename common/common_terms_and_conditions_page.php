@@ -19,7 +19,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
-      <a class="navbar-brand" href="login_page.php">
+      <a class="navbar-brand" href="../login_page.php">
         DMOFFICE
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="common_terms_and_conditions_page.php">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="common_terms_and_conditions_page.php">Terms and Conditions<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="common_help_page.php">Help</a>
