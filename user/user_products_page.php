@@ -83,118 +83,107 @@
               <tr>
                 <th>Id</th>
                 <th>Name</th>
-                <th>Partner</th>
-                <th>Price</th>
                 <th>Type</th>
+                <th>Category</th>
+                <th>Manufacturer</th>
+                <th>Distributor</th>
+                <th>Price</th>
+                <th>Country</th>
+                <th>Container</th>
+                <th>Volume</th>
+                <th>Alcohol</th>
+                <th>Returnable</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Borsodi dobozos 0.5</td>
-                <td>Borsodi Sörgyár Kft.</td>
-                <td>245</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Heineken dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>290</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Kőbányai dobozos 0.5</td>
-                <td>Dreher Hungária Kft.</td>
-                <td>220</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Kőbányai üveges 0.5</td>
-                <td>Dreher Hungária Kft.</td>
-                <td>245</td>
-                <td>Beer</td>
-              </tr>
+              <?php
+                require '../includes/dbh_inc.php';
+                $sql = "SELECT * FROM prod;";
+                $result = mysqli_query($conn, $sql);
+                foreach ($result as $k => $v) {
+                  echo "<tr class='table-light'>";
+                  foreach ($v as $key => $value) {
+                      echo "<td>" . $value . "</td>";
+                  }
+                  echo "</tr>";
+                }
+               ?>
             </tbody>
           </table>
-          <form id="prod_form" style="display:none" class="" action="../includes/admin/reg_inc.php" method="post">
+          <form id="prod_form" style="display:none" class="" action="../includes/user/add_product_inc.php" method="post">
             <fieldset>
               <legend>Register new User</legend>
 
                 <div class="form-group">
                   <label for="">Name</label>
-                  <input style="color: #000000;"  class="form-control" type="text" name="reg_uid" value="" placeholder="Enter name">
+                  <input style="color: #000000;"  class="form-control" type="text" name="p_name" value="" placeholder="Enter name">
                 </div>
 
                 <div class="form-group">
                   <label for="">Type</label>
-                  <input style="color: #000000;" class="form-control" type="text" name="reg_name" value="" placeholder="Enter type">
+                  <input style="color: #000000;" class="form-control" type="text" name="p_type" value="" placeholder="Enter type">
                 </div>
 
                 <div class="form-group">
                   <label for="">Category</label>
-                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter category">
+                  <input style="color: #000000;" class="form-control" type="text" name="p_category" value="" placeholder="Enter category">
                 </div>
 
                 <div class="form-group">
                   <label for="">Manufacturer</label>
-                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter manufacturer">
+                  <input style="color: #000000;" class="form-control" type="text" name="p_manu" value="" placeholder="Enter manufacturer">
                 </div>
 
                 <div class="form-group">
                   <label for="">Distributor</label>
-                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter distributor">
+                  <input style="color: #000000;" class="form-control" type="text" name="p_dist" value="" placeholder="Enter distributor">
                 </div>
 
                 <div class="form-group">
                   <label for="">Purchase price</label>
-                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter purchase price (Ft)">
+                  <input style="color: #000000;" class="form-control" type="text" name="p_price" value="" placeholder="Enter purchase price (Ft)">
                 </div>
 
                 <div class="form-group">
                   <label for="">Country</label>
-                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter country">
+                  <input style="color: #000000;" class="form-control" type="text" name="p_country" value="" placeholder="Enter country">
                 </div>
 
                 <div class="form-group">
                   <label for="">Contanier</label>
-                  <select style="color: #000000;" class="form-control" name="reg_access">
+                  <select style="color: #000000;" class="form-control" name="p_container">
                     <option value="" disabled selected>Choose option</option>
-                    <option value="Delivery">Bottle</option>
-                    <option value="Customer Service">Can</option>
-                    <option value="Customer Service">Pet</option>
+                    <option value="Bottle">Bottle</option>
+                    <option value="Can">Can</option>
+                    <option value="Pet">Pet</option>
                   </select>
                 </div>
 
                 <div class="form-group">
                   <label for="">Volume</label>
-                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter volume (ml)">
+                  <input style="color: #000000;" class="form-control" type="text" name="p_volume" value="" placeholder="Enter volume (ml)">
                 </div>
 
                 <div class="form-group">
                   <label for="">Alcohol</label>
-                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter alcohol (%)">
+                  <input style="color: #000000;" class="form-control" type="text" name="p_alcohol" value="" placeholder="Enter alcohol (%)">
                 </div>
 
                 <div class="form-group">
                   <label for="">Returnable</label>
-                  <select style="color: #000000;" class="form-control" name="reg_access">
+                  <select style="color: #000000;" class="form-control" name="p_ret">
                     <option value="" disabled selected>Choose option</option>
-                    <option value="Delivery">Yes</option>
-                    <option value="Customer Service">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
                 </div>
 
             </fieldset>
+            <div class="row">
+              <button class="btn btn-primary" type="submit" name="prod_submit" style="margin: 20px;">Register</button>
+              <button disabled class="btn btn-primary disabled" type="submit" name="mod_submit" style="margin: 20px;">Modify</button>
+              <button disabled class="btn btn-danger disabled" type="submit" name="del_submit" style="margin: 20px;">Delete</button>
+            </div>
           </form>
         </div>
       </div>
