@@ -48,9 +48,6 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              <?php $asd = $_SESSION['user_uid'];
-                echo $asd;
-              ?>
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Account</a>
