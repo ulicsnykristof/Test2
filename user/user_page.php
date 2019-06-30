@@ -62,7 +62,7 @@
           <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
             <p style="">Manage the partners of the company</p>
-            <a class="btn btn-primary bottom" href="user_partners_page.php" style="font-size: 22px;">Enter</a>
+            <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
@@ -85,7 +85,7 @@
           <div class="card-body text-center">
             <p style="">Products in the warehouse</p>
             <br/>
-            <a class="btn btn-primary bottom" href="user_stock_page.php" style="font-size: 22px;">Enter</a>
+            <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
@@ -97,7 +97,7 @@
           <div class="card-body text-center">
             <p style="">Checking on the products</p>
             <br/>
-            <a class="btn btn-primary bottom" href="user_partners_page.php" style="font-size: 22px;">Enter</a>
+            <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
