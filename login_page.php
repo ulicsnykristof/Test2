@@ -19,7 +19,7 @@
     <!-- Login Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
       <a class="navbar-brand" href="login_page.php">
-        DMOFFICE ASD
+        DMOFFICE
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@
     <footer class="page-footer">
       <div class="container center">
         <div class="text-center">
-          <a href="https://www.facebook.com/GojiraMusic"><i class="fa fa-facebook-official"></i></a>
+          <a href="#"><i class="fa fa-facebook-official"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>
           <a href="#"><i class="fa fa-snapchat"></i></a>
           <a href="#"><i class="fa fa-pinterest"></i></a>
