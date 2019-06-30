@@ -97,108 +97,31 @@
                 <td>Beer</td>
               </tr>
               <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
+                <td>2</td>
+                <td>Borsodi dobozos 0.5</td>
+                <td>Borsodi Sörgyár Kft.</td>
+                <td>245</td>
                 <td>Beer</td>
               </tr>
               <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
+                <td>3</td>
+                <td>Heineken dobozos 0.5</td>
                 <td>Heineken Hungária Kft.</td>
-                <td>270</td>
+                <td>290</td>
                 <td>Beer</td>
               </tr>
               <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
+                <td>4</td>
+                <td>Kőbányai dobozos 0.5</td>
+                <td>Dreher Hungária Kft.</td>
+                <td>220</td>
                 <td>Beer</td>
               </tr>
               <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
-                <td>Beer</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Soproni dobozos 0.5</td>
-                <td>Heineken Hungária Kft.</td>
-                <td>270</td>
+                <td>5</td>
+                <td>Kőbányai üveges 0.5</td>
+                <td>Dreher Hungária Kft.</td>
+                <td>245</td>
                 <td>Beer</td>
               </tr>
             </tbody>
@@ -208,29 +131,66 @@
               <legend>Register new User</legend>
 
                 <div class="form-group">
-                  <label for="">User ID (Nickname)</label>
-                  <input style="color: #000000;"  class="form-control" type="text" name="reg_uid" value="" placeholder="Enter user id">
+                  <label for="">Name</label>
+                  <input style="color: #000000;"  class="form-control" type="text" name="reg_uid" value="" placeholder="Enter name">
                 </div>
 
                 <div class="form-group">
-                  <label for="">User Name</label>
-                  <input style="color: #000000;" class="form-control" type="text" name="reg_name" value="" placeholder="Enter user name">
+                  <label for="">Type</label>
+                  <input style="color: #000000;" class="form-control" type="text" name="reg_name" value="" placeholder="Enter type">
                 </div>
 
                 <div class="form-group">
-                  <label for="">User E-mail</label>
-                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter e-mail address">
+                  <label for="">Category</label>
+                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter category">
                 </div>
 
                 <div class="form-group">
-                  <label for="">User Access</label>
+                  <label for="">Manufacturer</label>
+                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter manufacturer">
+                </div>
+
+                <div class="form-group">
+                  <label for="">Distributor</label>
+                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter distributor">
+                </div>
+
+                <div class="form-group">
+                  <label for="">Purchase price</label>
+                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter purchase price (Ft)">
+                </div>
+
+                <div class="form-group">
+                  <label for="">Country</label>
+                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter country">
+                </div>
+
+                <div class="form-group">
+                  <label for="">Contanier</label>
                   <select style="color: #000000;" class="form-control" name="reg_access">
                     <option value="" disabled selected>Choose option</option>
-                    <option value="Warehose worker">Warehose worker</option>
-                    <option value="Sales department">Sales department</option>
-                    <option value="Administration">Administration</option>
-                    <option value="Delivery">Delivery</option>
-                    <option value="Customer Service">Customer Service</option>
+                    <option value="Delivery">Bottle</option>
+                    <option value="Customer Service">Can</option>
+                    <option value="Customer Service">Pet</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="">Volume</label>
+                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter volume (ml)">
+                </div>
+
+                <div class="form-group">
+                  <label for="">Alcohol</label>
+                  <input style="color: #000000;" class="form-control" type="email" name="reg_email" value="" placeholder="Enter alcohol (%)">
+                </div>
+
+                <div class="form-group">
+                  <label for="">Returnable</label>
+                  <select style="color: #000000;" class="form-control" name="reg_access">
+                    <option value="" disabled selected>Choose option</option>
+                    <option value="Delivery">Yes</option>
+                    <option value="Customer Service">No</option>
                   </select>
                 </div>
 

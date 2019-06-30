@@ -31,10 +31,10 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="common/common_about_page.php">About</a>
+            <a class="nav-link" href="#">Terms and Conditions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="common/common_help_page.php">Help</a>
+            <a class="nav-link" href="#">Help</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -57,23 +57,23 @@
 
         <div class="card bg-secondary">
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
-            Products
+            Partners
           </div>
           <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
-            <p style="">Product list, stuff, etc.</p>
-            <a class="btn btn-primary bottom" href="user_products_page.php" style="font-size: 22px;">Enter</a>
+            <p style="">Manage the partners of the company</p>
+            <a class="btn btn-primary bottom" href="user_partners_page.php" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
         <div class="card bg-secondary">
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
-            Order request
+            Products
           </div>
           <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
-            <p style="">Product list, stuff, etc.</p>
-            <a class="btn btn-primary bottom" href="user_order_req_page.php" style="font-size: 22px;">Enter</a>
+            <p style="">Manage the products of the company</p>
+            <a class="btn btn-primary bottom" href="user_products_page.php" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
@@ -83,18 +83,20 @@
           </div>
           <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
-            <p style="">Product list, stuff, etc.</p>
+            <p style="">Products in the warehouse</p>
+            <br/>
             <a class="btn btn-primary bottom" href="user_stock_page.php" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
         <div class="card bg-secondary">
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
-            Partners
+            Inventory control
           </div>
           <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
-            <p style="">Product list, stuff, etc.</p>
+            <p style="">Checking on the products</p>
+            <br/>
             <a class="btn btn-primary bottom" href="user_partners_page.php" style="font-size: 22px;">Enter</a>
           </div>
         </div>
@@ -107,44 +109,47 @@
 
         <div class="card bg-secondary">
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
-            Products
+            Order Request
           </div>
           <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
-            <p style="">Product list, stuff, etc.</p>
+            <p style="">Make an order request</p>
+            <br/>
             <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
         <div class="card bg-secondary">
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
-            Products
+            Vendor
           </div>
           <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
-            <p style="">Product list, stuff, etc.</p>
+            <p style="">The customer</p>
+            <br/>
             <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
         <div class="card bg-secondary">
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
-            Products
+            Preparation
           </div>
           <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
-            <p style="">Product list, stuff, etc.</p>
+            <p style="">Prepare the outgoing products for the delivery</p>
             <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
           </div>
         </div>
 
         <div class="card bg-secondary">
           <div class="card-header bg-secondary" style="font-size: 18px; padding: 7px;">
-            Products
+            Delivery
           </div>
           <img class="card-img" src="../pics/producsat.png" alt="card.jpg" style="padding: 30px; opacity: 0.4;">
           <div class="card-body text-center">
-            <p style="">Product list, stuff, etc.</p>
+            <p style="">Cheking the delivery statuses</p>
+            <br/>
             <a class="btn btn-primary bottom" href="#" style="font-size: 22px;">Enter</a>
           </div>
         </div>
